@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS orderpizza (
+  OrderId INT(3) NOT NULL,
+  name VARCHAR(40) NULL,
+  address VARCHAR(100) NULL,
+  mobile VARCHAR(10) NULL,
+  emailid VARCHAR(30) NULL,
+  pizzatype VARCHAR(20) NULL,
+  time TEXT NULL,
+  PRIMARY KEY (OrderId));
